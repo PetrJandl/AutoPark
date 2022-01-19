@@ -1,0 +1,82 @@
+body{
+    background: black;
+    color: white;
+    margin: 0 auto;
+    width:95%;
+}
+.button, .flat-button{
+    color: white;
+}
+
+input[type=radio], input[type=checkbox] {
+    display: none;
+}
+
+
+#app {
+    /*margin: 10px auto;*/
+    /*width: 80%;*/
+}
+
+.button.large{
+    height: 83px;
+    line-height: 83px;
+    margin-bottom: 0 !important;
+}
+
+.car{
+    height: 222px !important;
+    line-height: 222px !important;
+    font-size: xx-large !important;
+}
+
+
+
+.carDriver, .carRZ {
+    border: 1px solid lightgray;
+    height: 56px;
+    text-align: center;
+}
+.carDriver{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.noprint{
+    display:none;
+}
+
+.radek{
+    border-top: 1px solid gray;
+}
+
+
+.vyberAutoNadpis {
+    width: 49%;
+    float: left;
+}
+.vyberAuto{
+    clear: both;
+}
+
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    float: right;
+    color: #eee;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    width: 49%;
+    top: 10%;
+}
+
+.time {
+     padding: 5px 0;
+}
+.date {
+     letter-spacing: 0.05em;
+}
+
+[v-cloak] {
+    display: none;
+}
